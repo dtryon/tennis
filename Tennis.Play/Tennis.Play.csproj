@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A38FB686-FE19-44A6-B139-18F5B7667CD8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Tennis.Play</RootNamespace>
+    <AssemblyName>Tennis.Play</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="PlayGame.cs" />
+    <Compile Include="IDetermineWinner.cs" />
+    <Compile Include="IPlayGame.cs" />
+    <Compile Include="DetermineWinner.cs" />
+    <Compile Include="PlaySet.cs" />
+    <Compile Include="IPlaySet.cs" />
+    <Compile Include="IPlayMatch.cs" />
+    <Compile Include="PlayMatch.cs" />
+    <Compile Include="ISide.cs" />
+    <Compile Include="IPlayTournament.cs" />
+    <Compile Include="PlayTournament.cs" />
+    <Compile Include="PlayingSide.cs" />
+    <Compile Include="GameScore.cs" />
+    <Compile Include="SetScore.cs" />
+    <Compile Include="MatchScore.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <ProjectReference Include="..\Tennis.Logic\Tennis.Logic.csproj">
+      <Project>{593B2E82-C96E-459C-8B99-50DAA5F65285}</Project>
+      <Name>Tennis.Logic</Name>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

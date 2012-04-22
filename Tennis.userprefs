@@ -1,0 +1,53 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Tennis.Play/DetermineWinner.cs">
+    <Files>
+      <File FileName="Tennis.Play.Test/PlayTournamentTest.cs" Line="96" Column="3" />
+      <File FileName="Tennis.Play.Test/PlaySetTest.cs" Line="62" Column="29" />
+      <File FileName="Tennis.Play.Test/PlayMatchTest.cs" Line="68" Column="52" />
+      <File FileName="Tennis.Play/DetermineWinner.cs" Line="27" Column="33" />
+      <File FileName="Tennis.Play/PlayTournament.cs" Line="51" Column="12" />
+      <File FileName="Tennis.Play/IPlayTournament.cs" Line="9" Column="22" />
+      <File FileName="Tennis.Play/PlayMatch.cs" Line="62" Column="20" />
+      <File FileName="Tennis.Logic/Match.cs" Line="54" Column="25" />
+      <File FileName="Tennis.Play/IPlayMatch.cs" Line="13" Column="25" />
+      <File FileName="Tennis.Play/PlayingSide.cs" Line="15" Column="31" />
+      <File FileName="Tennis.Play/ISide.cs" Line="15" Column="38" />
+      <File FileName="Tennis.Play/PlayGame.cs" Line="35" Column="1" />
+      <File FileName="Tennis.ConsoleUI/Main.cs" Line="124" Column="8" />
+      <File FileName="Tennis.Play.Test/PlayGameTest.cs" Line="64" Column="54" />
+      <File FileName="Tennis.Play/IPlayGame.cs" Line="11" Column="30" />
+      <File FileName="Tennis.Play/IPlaySet.cs" Line="11" Column="32" />
+      <File FileName="Tennis.Play/PlaySet.cs" Line="88" Column="13" />
+      <File FileName="Tennis.Play/GameScore.cs" Line="9" Column="29" />
+      <File FileName="Tennis.Play/SetScore.cs" Line="11" Column="2" />
+      <File FileName="Tennis.Logic/Set.cs" Line="1" Column="1" />
+      <File FileName="Tennis.Play/MatchScore.cs" Line="14" Column="2" />
+      <File FileName="Tennis.Logic/Side.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="Tennis.Play" expanded="True">
+            <Node name="DetermineWinner.cs" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State expanded="True" selected="True" />
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+      <Pad Id="MonoDevelop.NUnit.TestPad">
+        <State expanded="True" selected="True" />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/home/jumble/Documents/Dev/C#/Projects/Tennis/Tennis.ConsoleUI/Main.cs" line="53" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
