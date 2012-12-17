@@ -48,7 +48,7 @@ namespace Tennis.Play
 			{
 				var setWinner = playSet.Play();
 				
-				match.WinGame(s => setWinner);
+				match.WinSet(s => setWinner);
 				
 				setScores.Add(new SetScore() { Score = match.PrintScore(), GameScores = playSet.GetGameScores() });
 			}

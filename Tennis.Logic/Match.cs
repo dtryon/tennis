@@ -13,7 +13,7 @@ namespace Tennis.Logic
 			state = MatchState.Playing;
 		}
 		
-		public void WinGame(Func<Side, Side> scoring)
+		public void WinSet(Func<Side, Side> scoring)
 		{
 			var scoringSide = scoring(Side.None);
 			AdvanceState(scoringSide);
@@ -51,12 +51,12 @@ namespace Tennis.Logic
 				sideTwoScore++;
 			}
 			
-			if (sideOneScore >= 3)
+			if (sideOneScore >= 2)
 			{
 				state = MatchState.MatchWonBySideOne;
 			}
 			
-			if (sideTwoScore >= 3)
+			if (sideTwoScore >= 2)
 			{
 				state = MatchState.MatchWonBySideTwo;
 			}

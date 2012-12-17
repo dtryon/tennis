@@ -34,7 +34,7 @@ namespace Tennis.Logic.Test
 		public void SideOne_Wins_Set_Score_Is_1_0 ()
 		{
 			//Act
-			SideOneWinsGames(1);
+			SideOneWinsSets(1);
 			
 			//Assert
 			Assert.AreEqual(1, target.SideOneScore);
@@ -47,7 +47,7 @@ namespace Tennis.Logic.Test
 		public void SideOne_Wins_Set_Score_Is_2_0_Match_Won ()
 		{
 			//Act
-			SideOneWinsGames(2);
+			SideOneWinsSets(2);
 			
 			//Assert
 			Assert.AreEqual(2, target.SideOneScore);
@@ -60,7 +60,7 @@ namespace Tennis.Logic.Test
 		public void SideTwo_Wins_Set_Score_Is_0_1 ()
 		{
 			//Act
-			SideTwoWinsGames(1);
+			SideTwoWinsSets(1);
 			
 			//Assert
 			Assert.AreEqual(0, target.SideOneScore);
@@ -73,7 +73,7 @@ namespace Tennis.Logic.Test
 		public void SideTwo_Wins_Set_Score_Is_0_2_Match_Won ()
 		{
 			//Act
-			SideTwoWinsGames(2);
+			SideTwoWinsSets(2);
 			
 			//Assert
 			Assert.AreEqual(0, target.SideOneScore);
@@ -86,9 +86,9 @@ namespace Tennis.Logic.Test
 		public void SideTwo_Wins_Set_Score_Is_1_2_Match_Won ()
 		{
 			//Act
-			SideTwoWinsGames(1);
-			SideOneWinsGames(1);
-			SideTwoWinsGames(1);
+			SideTwoWinsSets(1);
+			SideOneWinsSets(1);
+			SideTwoWinsSets(1);
 			
 			//Assert
 			Assert.AreEqual(1, target.SideOneScore);
@@ -97,17 +97,17 @@ namespace Tennis.Logic.Test
 			Assert.AreEqual("1 - 2", target.PrintScore());
 		}
 		
-		private void SideOneWinsGames(int points)
+		private void SideOneWinsSets(int points)
 		{
 			for (int i = 0; i < points; i++) {
-				target.WinGame(s => Side.One);
+				target.WinSet(s => Side.One);
 			}
 		}
 		
-		private void SideTwoWinsGames(int points)
+		private void SideTwoWinsSets(int points)
 		{
 			for (int i = 0; i < points; i++) {
-				target.WinGame(s => Side.Two);
+				target.WinSet(s => Side.Two);
 			}
 		}
 	}
