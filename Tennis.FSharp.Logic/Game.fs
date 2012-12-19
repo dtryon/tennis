@@ -16,6 +16,7 @@
             | PointState.Forty -> PointState.Deuce
             | PointState.Deuce -> PointState.Advantage
             | PointState.Advantage -> PointState.Win
+            | _ -> PointState.Love
 
         let printScore pointState =
             match pointState with
@@ -25,6 +26,7 @@
             | PointState.Forty -> "forty"
             | PointState.Deuce -> "deuce"
             | PointState.Advantage -> "advantage"
+            | _ -> "love"
 
         member private this.IsDeuce =
             if (int sideOnePointState) > 2 && (int sideTwoPointState) > 2 && sideOnePointState = sideTwoPointState then
