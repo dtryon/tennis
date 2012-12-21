@@ -37,15 +37,18 @@
     <Compile Include="ArgumentValidator.fs" />
     <Compile Include="GameScore.fs" />
     <Compile Include="SetScore.fs" />
+    <Compile Include="MatchScore.fs" />
     <Compile Include="ISide.fs" />
     <Compile Include="IDetermineWinner.fs" />
     <Compile Include="DetermineWinner.fs" />
+    <Compile Include="IPlayTournament.fs" />
     <Compile Include="IPlayMatch.fs" />
     <Compile Include="IPlaySet.fs" />
     <Compile Include="IPlayGame.fs" />
     <Compile Include="PlayGame.fs" />
     <Compile Include="PlaySet.fs" />
     <Compile Include="PlayMatch.fs" />
+    <Compile Include="PlayTournament.fs" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
