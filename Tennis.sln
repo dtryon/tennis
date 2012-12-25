@@ -19,6 +19,8 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Tennis.FSharp.Play", "Tenni
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tennis.FSharp.Play.Test", "Tennis.FSharp.Play.Test\Tennis.FSharp.Play.Test.csproj", "{004CF6D2-B68E-4067-90E5-E3E761339FB6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tennis.FSharp.ConsoleUI", "Tennis.FSharp.ConsoleUI\Tennis.FSharp.ConsoleUI.csproj", "{421E8234-A0DA-4615-88FB-2856DE54FAF7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -127,6 +129,16 @@ Global
 		{004CF6D2-B68E-4067-90E5-E3E761339FB6}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{004CF6D2-B68E-4067-90E5-E3E761339FB6}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{004CF6D2-B68E-4067-90E5-E3E761339FB6}.Release|x86.ActiveCfg = Release|Any CPU
+		{421E8234-A0DA-4615-88FB-2856DE54FAF7}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{421E8234-A0DA-4615-88FB-2856DE54FAF7}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{421E8234-A0DA-4615-88FB-2856DE54FAF7}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{421E8234-A0DA-4615-88FB-2856DE54FAF7}.Debug|x86.ActiveCfg = Debug|x86
+		{421E8234-A0DA-4615-88FB-2856DE54FAF7}.Debug|x86.Build.0 = Debug|x86
+		{421E8234-A0DA-4615-88FB-2856DE54FAF7}.Release|Any CPU.ActiveCfg = Release|x86
+		{421E8234-A0DA-4615-88FB-2856DE54FAF7}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{421E8234-A0DA-4615-88FB-2856DE54FAF7}.Release|Mixed Platforms.Build.0 = Release|x86
+		{421E8234-A0DA-4615-88FB-2856DE54FAF7}.Release|x86.ActiveCfg = Release|x86
+		{421E8234-A0DA-4615-88FB-2856DE54FAF7}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

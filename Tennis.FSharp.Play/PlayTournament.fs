@@ -11,6 +11,8 @@
             let winner = aMatch.Play()
             let matchScore = new MatchScore()
             matchScore.SetScores <- aMatch.GetSetScores()
+            matchScore.SideOne <- aMatch.SideOne
+            matchScore.SideTwo <- aMatch.SideTwo
             matchList <- matchScore :: matchList
             winner
         

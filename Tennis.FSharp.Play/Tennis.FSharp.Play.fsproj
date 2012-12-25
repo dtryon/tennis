@@ -37,8 +37,9 @@
     <Compile Include="ArgumentValidator.fs" />
     <Compile Include="GameScore.fs" />
     <Compile Include="SetScore.fs" />
-    <Compile Include="MatchScore.fs" />
     <Compile Include="ISide.fs" />
+    <Compile Include="PlayingSide.fs" />
+    <Compile Include="MatchScore.fs" />
     <Compile Include="IDetermineWinner.fs" />
     <Compile Include="DetermineWinner.fs" />
     <Compile Include="IPlayTournament.fs" />
